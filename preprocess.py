@@ -4,7 +4,7 @@ import pickle
 import pickle
 import numpy as np
 
-tfidf_cv = pickle.load(open('Models/model.pkl','rb'))
+tfidf_cv = pickle.load(open('Models/tfidf_cv.pkl','rb'))
 
 
 def test_common_words(q1,q2):
