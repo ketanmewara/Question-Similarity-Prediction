@@ -3,7 +3,7 @@ import preprocess
 import pickle
 import numpy as np
 
-model = pickle.load(open('Models/tfidf_cv.pkl','rb'))
+model = pickle.load(open('Models/model.pkl','rb'))
 
 app = Flask(__name__, template_folder='templates')
 
